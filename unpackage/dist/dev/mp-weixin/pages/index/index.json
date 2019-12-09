@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "uni-app",
+  "usingComponents": {
+    "banner": "/components/banner/banner",
+    "recommend": "/components/recommend/recommend"
+  }
+}

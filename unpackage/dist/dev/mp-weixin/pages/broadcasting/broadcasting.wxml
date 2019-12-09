@@ -1,0 +1,1 @@
+<view class="broadcasting"><view class="ul"><block wx:for="{{datalist}}" wx:for-item="e" wx:for-index="__i0__" wx:key="id"><view class="li">{{e.title}}</view></block></view></view>

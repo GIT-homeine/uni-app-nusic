@@ -1,0 +1,1 @@
+<view class="container"><view class="ul _ul"><block wx:for="{{list}}" wx:for-item="item" wx:for-index="i" wx:key="i"><view class="section _li"><image class="image" src="{{item.img}}"></image><view class="p _p">{{item.text}}</view><label class="span _span"><image class="imageright" src="../../static/image/youjiantou.png"></image></label></view></block></view></view>

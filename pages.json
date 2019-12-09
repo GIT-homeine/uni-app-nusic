@@ -1,0 +1,78 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "uni-app"
+			}
+		}, {
+			"path": "pages/Cloudvillage/Cloudvillage",
+			"style": {
+				"navigationBarTitleText": "uni-app"
+			}
+		}, {
+			"path": "pages/collect/collect",
+			"style": {
+				"navigationBarTitleText": "uni-app"
+			}
+		},
+		{
+			"path": "pages/my/my",
+			"style": {
+				"navigationBarTitleText": "uni-app"
+			}
+		}, {
+			"path": "components/banner/banner",
+			"style": {}
+		}, {
+			"path": "components/recommend/recommend",
+			"style": {}
+		}
+	    ,{
+            "path" : "pages/music/music",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/broadcasting/broadcasting",
+            "style" : {}
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#707070",
+		"selectedColor": "#d81e06",
+		"backgroundColor": "#fff",
+		"borderStyle": "black",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"text": "首页",
+				"iconPath": "./static/image/home1.png",
+				"selectedIconPath": "./static/image/home.png"
+			},
+			{
+				"pagePath": "pages/collect/collect",
+				"text": "发现",
+				"iconPath": "./static/image/faxian1.png",
+				"selectedIconPath": "./static/image/faxian.png"
+			},
+			{
+				"pagePath": "pages/Cloudvillage/Cloudvillage",
+				"text": "云村",
+				"iconPath": "./static/image/duoren1.png",
+				"selectedIconPath": "./static/image/duoren.png"
+			},
+			{
+				"pagePath": "pages/my/my",
+				"text": "我的",
+				"iconPath": "./static/image/wode1.png",
+				"selectedIconPath": "./static/image/wode.png"
+			}
+		]
+	}
+
+}

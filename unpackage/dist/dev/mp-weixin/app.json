@@ -1,0 +1,54 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/Cloudvillage/Cloudvillage",
+    "pages/collect/collect",
+    "pages/my/my",
+    "components/banner/banner",
+    "components/recommend/recommend",
+    "pages/music/music",
+    "pages/broadcasting/broadcasting"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#707070",
+    "selectedColor": "#d81e06",
+    "backgroundColor": "#fff",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "./static/image/home1.png",
+        "selectedIconPath": "./static/image/home.png"
+      },
+      {
+        "pagePath": "pages/collect/collect",
+        "text": "发现",
+        "iconPath": "./static/image/faxian1.png",
+        "selectedIconPath": "./static/image/faxian.png"
+      },
+      {
+        "pagePath": "pages/Cloudvillage/Cloudvillage",
+        "text": "云村",
+        "iconPath": "./static/image/duoren1.png",
+        "selectedIconPath": "./static/image/duoren.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "我的",
+        "iconPath": "./static/image/wode1.png",
+        "selectedIconPath": "./static/image/wode.png"
+      }
+    ]
+  },
+  "usingComponents": {
+    "cu-custom": "/colorui/components/cu-custom"
+  }
+}
